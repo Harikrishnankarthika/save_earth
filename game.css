@@ -1,9 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    cursor: url("bg_ufo.png"),auto  ;
+    
     overflow: hidden;
 }
+
 body:before
 {
     content: '';
@@ -72,7 +73,7 @@ input:checked + label{
 .duck:nth-last-of-type(1){
     
     animation: duckfly 10s linear 1s infinite;
-    cursor: url(bg_ufo.png),auto;
+    cursor: url(bg_ufo.png),auto;z
 
 }
 .duck:nth-last-of-type(2){
